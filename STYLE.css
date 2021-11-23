@@ -1,0 +1,9 @@
+html {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+.breadcrumb ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
