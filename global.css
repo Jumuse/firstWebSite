@@ -1,9 +1,11 @@
+/*STYLE TOUTES PAGES : header et footer*/
+
 html {
     width: 100%;
     font-family: 'Raleway', sans-serif;
 }
 header {
-    width: 90%;
+    width: 80%;
     margin: auto;
     display: flex;
     align-items: center;
@@ -16,20 +18,22 @@ header {
     align-items: center;
 }
 .catchPhrase {
-    font-size: 1.8em;
+    font-size: 1.5em;
     font-weight: 900;
     font-style: italic;
 }
 nav ul {
     display: flex;
+    font-size: 1.5em;
+    text-decoration: none;
+    list-style: none;
+
 }
 ul li {
     padding: 1vw;
-    list-style: none;
-    text-decoration: none;
 }
 main {
-    width: 70vw;
+    min-width: 100%;
     margin: auto;
     margin-top: 10vh;
     margin-bottom: 10vh;
@@ -37,6 +41,7 @@ main {
 footer {
     width: 90%;
     margin: auto;
+    font-size: 0.6em;
 }
 .bottom-wrapper {
     display: flex;
