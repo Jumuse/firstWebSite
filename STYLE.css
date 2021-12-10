@@ -1,9 +1,54 @@
-html {
-    width: 100%;
-    font-family: 'Raleway', sans-serif;
+/* STYLE PAGE index.html */
+
+h1, h2, h3 {
+font-family: 'Montserrat Alternates', sans-serif;
+font-weight: 300;
 }
-.breadcrumb ul {
-    list-style: none;
+h1 {
+    padding: 5vw;
+    text-align: center;
+    font-weight: 800;
+    font-size: 3em;
+    background: lightskyblue;
+}
+main {
+    width: 80%;
+    margin: auto;
+}
+.mainPhoto {
+    float: left;
+    padding-right: 2vw;
+}
+.blocks {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    padding: 3vw;
+    text-align: center;
 }
+
+.mainArticle, .blocks {
+    max-width: 80%;
+    margin: auto;
+}
+.partOne {
+    padding: 2vw;
+    background: lightcoral;
+}
+h2 {
+    font-size: 2em;
+    font-weight: bolder;
+}
+p{
+    font-size: 1.5em;
+}
+.partTwo {
+    display: flex;
+    padding: 2vw;
+    margin-top: 2vw;
+    background: lightgoldenrodyellow;
+}
+video {
+    align-self: flex-start;
+}
+
