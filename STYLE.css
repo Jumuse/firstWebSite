@@ -11,10 +11,6 @@ h1 {
     font-size: 3em;
     background: lightskyblue;
 }
-main {
-    width: 80%;
-    margin: auto;
-}
 .mainPhoto {
     float: left;
     padding-right: 2vw;
@@ -25,11 +21,6 @@ main {
     align-items: center;
     padding: 3vw;
     text-align: center;
-}
-
-.mainArticle, .blocks {
-    max-width: 80%;
-    margin: auto;
 }
 .partOne {
     padding: 2vw;

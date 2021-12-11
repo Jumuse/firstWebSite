@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <title>SPA, Société Protectrice des Animaux</title>
+    <link href="style-events.css" rel="stylesheet" type="text/css" />
+    <link href="global.css" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">    
+<title>SPA, Société Protectrice des Animaux</title>
 </head>
 <body>
     <header>
         <div class="logo-wrapper">
-            <img src="Logo.png" alt="logo de la SPA" title="SPA">
-            <div class="logo">Des Animaux et des Hommes</div>
+            <a href="index.html"><img src="Logo.png" alt="logo de la SPA" title="SPA"></a>
+            <div class="catchPhrase">Des Animaux et des Hommes</div>
         </div>
         <nav class="navigation">
             <ul>
@@ -21,18 +28,18 @@
                 <li class="item"><a href="#">contact</a></li>
             </ul>
         </nav>
+    </header>
+    <main>
         <nav aria-label="Breadcrumb" class="breadcrumb">
             <ul>
                 <li><a href="index.html">ACCUEIL</a></li>
-                <li><span aria-current="page"><a href="">EVENEMENTS</a></span></li>
+                <li>EVENEMENTS</a></li>
             </ul>
         </nav>
-    </header>
-    <main>
         <div class="articles">
             <article class="mainArticle">
                 <h2>Proposition de loi contre la maltraitance animale : UNE GRANDE VICTOIRE POUR LA CAUSE ANIMALE !</h2>
-                <img src="https://picsum.photos/400/200" alt="photo article maltraitance">
+                <img src="https://picsum.photos/2560/600" alt="photo article maltraitance" class="coverpic">
                 <div class="paragraph-content">
                     <p>Le 21 octobre, une nouvelle page s’est ouverte pour la protection animale auprès de la commission mixte paritaire (CMP) conclusive. Après un véritable rétropédalage, lors de son passage en 1ère lecture au Sénat, la proposition de loi avait été vidée de sa substance. Alors que nous avons tous craint qu’aucun compromis ne soit trouvé, les Sénateurs et les députés sont parvenus à un accord inespéré qui marque une avancée majeure pour la lutte contre la maltraitance animale.</p>
                     <h4>2028 SONNE LE GLAS DES DIVERTISSEMENTS METTANT EN SCÈNE DES ANIMAUX SAUVAGES</h4>
@@ -51,6 +58,8 @@
                     Egalement, des pratiques que nous dénonçons depuis longtemps tels que la corrida n’ont été inclus dans ce dispositif législatif mais la SPA continuera à porter son action.</p>
                 </div>
             </article>
+            <div class="horizontalBar"></div>
+            <h2 class="smallTitle">L'ACTUALITÉ DE LA SEMAINE</h2>
             <div class="smallArticles">
                 <article class="small one">
                     <h3>Adopter 1 animal, c'est en sauver 2</h3>
@@ -80,34 +89,32 @@
                 </article>
             </div>
         </div>
-        <aside class="pub">
-            <img src="puppy.jpg" alt="chiot">
-        </aside>
+        <div class="fbLink"><strong>Vous souhaitez vous engager ? Rendez-vous dès à présent sur notre page <a href="https://www.facebook.com/spaofficiel">Facebook</a> !</strong></div>
     </main>
 </body>
 
-    <footer>
-        <div class="bottom-wrapper">
-            <div class="bottom newsletter">
-                <p>Inscrivez-vous à la newsletter !</p>
-                <form action="/my-page-exemple" method="post">
-                    <input type="email" id="email" name="email">
-                    <button type="submit">Valider</button>
-                </form>
-            </div>
-            <div class="bottom socialmedia">
-                <a href="https://www.facebook.com/spaofficiel/"><img src="facebook.png" alt="logo facebook"></a>
-                <a href="https://twitter.com/spa_officiel"><img src="twitter.png" alt="logo twitter"></a>
-                <a href="https://twitter.com/spa_officiel"><img src="instagram.png" alt="logo instagram"></a>
-                <a href="https://fr.linkedin.com/company/la-spa"><img src="linkedin.png" alt="logo linkedin"></a>
-            </div>
-            <div class="bottom chart">
-                <p>Lorem Ipsum</p>
-                <img src="don-en-confiance.jpg" alt="logo don en confiance">
-            </div>
+<footer>
+    <div class="bottom-wrapper">
+        <div class="bottom newsletter">
+            <p>Inscrivez-vous à la newsletter !</p>
+            <form action="/my-page-exemple" method="post">
+                <input type="email" id="email" name="email">
+                <button type="submit">Valider</button>
+            </form>
         </div>
-        <p class="credits">@2021</p>
-    </footer>
+        <div class="bottom socialmedia">
+            <a href="https://www.facebook.com/spaofficiel/"><img class="mini" src="facebook.png" alt="logo facebook"></a>
+            <a href="https://twitter.com/spa_officiel"><img class="mini" src="twitter.png" alt="logo twitter"></a>
+            <a href="https://twitter.com/spa_officiel"><img class="mini" src="instagram.png" alt="logo instagram"></a>
+            <a href="https://fr.linkedin.com/company/la-spa"><img class="mini" src="linkedin.png" alt="logo linkedin"></a>
+        </div>
+        <div class="bottom chart">
+            <p>Nous sommes accrédités !</p>
+            <img class="maxi" src="don-en-confiance.jpg" alt="logo don en confiance">
+        </div>
+    </div>
+    <p class="credits">@2021</p>
+</footer>
 
 
 </html>
