@@ -215,8 +215,13 @@ video {
     padding: 4vw;
     background: #fbe0d1;
 }
+button {
+    background-color:#0fd2f8;;
+    color: black;
+    border: none;
+}
 
-
+/*responsive*/
 @media screen and (max-width: 950px) {
     .catchPhrase {
         display: none;
