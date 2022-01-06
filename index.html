@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="global.css" rel="stylesheet" type="text/css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,27 +17,26 @@
 <body>
 
     <header>
-        <div class="logo-wrapper">
-            <a href="index.html"><img src="Logo.png" alt="logo de la SPA" title="SPA"></a>
+        <div class="logo-whole">
+            <a href="index.html"><img src="Logo.png" class="spa" alt="logo de la SPA" title="SPA"></a>
             <div class="catchPhrase">Des Animaux et des Hommes</div>
         </div>
-        <nav class="navigation">
-            <ul>
-                <li class="item"><a href="index.html">accueil</a></li>
-                <li class="item"><a href="evenements.html">évènements</a></li>
-                <li class="item"><a href="#">adopter</a></li>
-                <li class="item"><a href="#">contact</a></li>
-            </ul>
+        <nav>
+            <a href="index.html">accueil</a>
+            <a href="evenements.html">évènements</a>
+            <a href="#">adopter</a>
+            <a href="#">contact</a>
+            <a href="#">MENU</a>
         </nav>
     </header>
 
-    <h1>Bienvenue sur le site de LA SPA !</h1>
+    <h1>Bienvenue sur le site de la SPA !</h1>
 
     <main>
-        <section class="mainArticle">
-            <h2>L'ASSOCIATION</h2>
+        <section class="article">
+            <h2 class="title">L'ASSOCIATION</h2>
             <article class="partOne">
-                <img src="https://picsum.photos/300/300" class="mainPhoto" alt="Ubu, mascotte de la SPA">
+                <img src="https://picsum.photos/200/200" class="photoArt" alt="Ubu, mascotte de la SPA">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu commodo leo. Donec et arcu lectus. Fusce varius quis diam vitae laoreet. Cras viverra ex libero, quis vehicula purus iaculis ac. Curabitur tincidunt, nisl at laoreet sollicitudin, mi est imperdiet sapien, sit amet vulputate odio dolor eu leo. Proin dapibus nisl sed iaculis pretium. Mauris facilisis, velit vel porta pretium, felis odio malesuada ligula, ac laoreet nibh risus eu nibh. Donec pharetra faucibus enim eu porta. Proin porttitor mi eu augue ullamcorper, non dapibus nibh tempus. Phasellus tempor ornare aliquet. Nam sit amet vestibulum tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer tristique mauris vel purus fringilla, feugiat maximus sem consequat.
                 </p>
             </article>
@@ -79,27 +77,27 @@
     </main>
 </body>
 
-    <footer>
-        <div class="bottom-wrapper">
-            <div class="bottom newsletter">
+<footer>
+        <div class="bottomWrapper">
+            <div class="newsletter">
                 <p>Inscrivez-vous à la newsletter !</p>
                 <form action="/my-page-exemple" method="post">
                     <input type="email" id="email" name="email">
                     <button type="submit">Valider</button>
                 </form>
             </div>
-            <div class="bottom socialmedia">
+            <div class="socialmedia">
                 <a href="https://www.facebook.com/spaofficiel/"><img class="mini" src="facebook.png" alt="logo facebook"></a>
                 <a href="https://twitter.com/spa_officiel"><img class="mini" src="twitter.png" alt="logo twitter"></a>
                 <a href="https://twitter.com/spa_officiel"><img class="mini" src="instagram.png" alt="logo instagram"></a>
                 <a href="https://fr.linkedin.com/company/la-spa"><img class="mini" src="linkedin.png" alt="logo linkedin"></a>
             </div>
-            <div class="bottom chart">
-                <p>Nous sommes accrédités !</p>
-                <img class="maxi" src="don-en-confiance.jpg" alt="logo don en confiance">
-            </div>
+            <div class="chart">
+            <img class="maxi" src="don-en-confiance.jpg" alt="logo don en confiance">
+            <p>Nous sommes accrédités !</p>
         </div>
-        <p class="credits">@2021</p>
-    </footer>
+    </div>
+    <p class="credits">@2021</p>
+</footer>
 
 </html>
