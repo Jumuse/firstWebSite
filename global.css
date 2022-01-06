@@ -136,13 +136,18 @@ video {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
     padding: 3vw;
     text-align: center;
 }
+.blocks img {
+    max-width: 100%;
+}
 .first, .second, .third {
+    height: 150%;
     background: #fbe0d1;
-    padding: 3vh;
+    padding: 2vh;
+    width: 25%;
 }
 
 
